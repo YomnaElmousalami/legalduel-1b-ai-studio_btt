@@ -1,6 +1,7 @@
 ## Simple Flask App Interface for Chronology Model using GPT-Turbo
 #### TO USE
-1. add .env file in top ai-web-app directory and add api-key <br>
+1. `git clone` repository and `cd ai-web-app`
+2. add .env file in top ai-web-app directory and add api-key <br>
 ```OPENAI_API_KEY="{your api key}``` <br>
     (note: purchase key at <a href="https://platform.openai.com/api-keys">OpenAI Platform</a>)
 
