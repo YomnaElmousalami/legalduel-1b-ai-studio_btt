@@ -10,12 +10,15 @@ client = OpenAI(api_key=os.getenv("OPENAI_KEY"))
 @Language.component("openai_summarizer")
 def summarize_text(doc):
     """Custom component that summarizes the text using OpenAI's GPT model."""
-    prompt = ("Please take the following document and create a chronology from it in markdown."
+    prompt = ("Please take the following document and create a chronology from it in markdown with a header called chronology."
         "Format dates in UTC."
+        "Follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
+        "Seperate each event with a new line character."
         "Take your time, and make sure to think through it as to minimize error.")
     # prompt = ("You are a helpful assistant that transforms text into a legal chronology."
     #     "Extract dates from events and summarize the event. Follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
     #     "Bold dates and seperate each event with a new line character")
+    
     response = client.chat.completions.create(model="gpt-3.5-turbo",
     messages=[
         {"role": "system", "content": prompt},
@@ -24,6 +27,7 @@ def summarize_text(doc):
     summary = response.choices[0].message.content
     doc._.summary = summary
     return doc
+    return summary
 
 nlp = spacy.blank("en")
 
