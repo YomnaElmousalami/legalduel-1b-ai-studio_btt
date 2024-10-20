@@ -34,15 +34,16 @@ document.getElementById("inputForm").addEventListener("submit", async function (
     const outputElement = document.getElementById("modelOutput");
 
     if (response.ok) {
-        // Assuming result.summary is a string with multiple events or sentences
-        const events = result.summary.split("\n"); // Split by new lines or any other delimiter
+        const events = result.summary.split("\n"); // Split by new line
         outputElement.textContent = '';  // Clear previous content
+
         events.forEach(event => {
-            const paragraph = document.createElement("p");  // Create a new paragraph element for each event
-            paragraph.textContent = event;  // Set the event text
-            outputElement.appendChild(paragraph);  // Append to the output element
+            const newLine = document.createElement("p");  // Create a new paragraph element for each event
+            newLine.textContent = event; 
+            outputElement.appendChild(newLine);  // Append to the output element
         });
     } else {
         outputElement.textContent = result.error || "Something went wrong!";
     }
 });
+
