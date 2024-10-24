@@ -14,6 +14,7 @@ def summarize_text(doc):
         "Format dates in UTC."
         "Follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
         "Seperate each event with a new line character."
+        "Make sure the dates are in chronological order"
         "Take your time, and make sure to think through it as to minimize error.")
     # prompt = ("You are a helpful assistant that transforms text into a legal chronology."
     #     "Extract dates from events and summarize the event. Follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
