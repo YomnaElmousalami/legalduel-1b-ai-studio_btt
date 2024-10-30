@@ -44,7 +44,7 @@ document.getElementById("inputForm").addEventListener("submit", async function (
 
                 timeline_content.innerHTML = `
                     <div class="content">
-                        <h2>${date.trim()}</h2> //trim: removes whitespace from both sides of a string.
+                        <h2>${date.trim()}</h2> <!--trim: removes whitespace from both sides of a string.--> 
                         <p>${description.trim()}</p>
                     </div>
                 `;
