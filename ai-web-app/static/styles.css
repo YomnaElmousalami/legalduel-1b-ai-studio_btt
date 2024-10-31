@@ -32,15 +32,15 @@ body {
     margin: 20px
 }
 
-/* The actual timeline (the vertical ruler) */
+/* The actual timeline */
 .timeline {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
-    color: black
+    color: red;
 }
 
-/* The actual timeline (the vertical ruler) */
+/* The vertical ruler of the timeline */
 .timeline::before {
     content: '';
     position: absolute;

@@ -21,6 +21,7 @@ document.getElementById("inputForm").addEventListener("submit", async function (
     if (response.ok) {
         const events = result.summary.split("\n"); // Split for each new line
         outputElement.textContent = '';  // Clear previous content
+        timeline.textContent = '';
 
         events.forEach(event => {
             const newLine = document.createElement("p");  // Create a new paragraph element for each event
