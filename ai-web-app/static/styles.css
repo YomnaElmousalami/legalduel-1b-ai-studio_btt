@@ -8,9 +8,13 @@ body {
 }
 
 #mainContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     color: white;
+}
+
+#inputText {
+    padding: 20px;
+    font-size: 18px;
 }
 
 #textContent {
@@ -24,8 +28,20 @@ body {
     margin-bottom: 20px;
 }
 
-.sideContainer {
+.leftContainer {
+    height: 97vh;
+    width: 55vw;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.rightContainer {
+    height: 97vh;
+    width: 45vw;
     padding: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .outputContainer {
