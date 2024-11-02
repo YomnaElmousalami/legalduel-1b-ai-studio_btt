@@ -17,7 +17,7 @@ def summarize_text(doc):
         "Make sure the dates are in chronological order"
         "Take your time, and make sure to think through it as to minimize error.")
     
-    response = client.chat.completions.create(model="gpt-3.5-turbo",
+    response = client.chat.completions.create(model="ft:gpt-3.5-turbo-0125:personal::APDWVpcR",
     messages=[
         {"role": "system", "content": prompt},
         {"role": "user", "content": doc.text}
