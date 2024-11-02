@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chronology</title>
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 
@@ -13,8 +14,9 @@
   <div id="mainContainer">
     <div class="leftContainer">
       <h1>Chronology Creator</h1>
+      <input type="file" id="pdfUpload" accept="application/pdf">
       <form id="inputForm">
-          <textarea id="inputText" rows="30" cols="65" placeholder="Enter Text..."></textarea><br><br>
+          <textarea id="inputText" rows="28" cols="65" placeholder="Enter Text..."></textarea><br><br>
           <button style="font-size: 20px;" type="submit">Generate Chronology</button>
       </form>
     </div>

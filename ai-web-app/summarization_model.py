@@ -16,9 +16,6 @@ def summarize_text(doc):
         "Seperate each event with a new line character."
         "Make sure the dates are in chronological order"
         "Take your time, and make sure to think through it as to minimize error.")
-    # prompt = ("You are a helpful assistant that transforms text into a legal chronology."
-    #     "Extract dates from events and summarize the event. Follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
-    #     "Bold dates and seperate each event with a new line character")
     
     response = client.chat.completions.create(model="gpt-3.5-turbo",
     messages=[

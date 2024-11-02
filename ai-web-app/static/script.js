@@ -57,6 +57,39 @@ document.getElementById("inputForm").addEventListener("submit", async function (
     }
 });
 
+// Read PDF File using PDF.js
+document.getElementById("pdfUpload").addEventListener("change", function(event) {
+    const file = event.target.files[0];
+    if (file && file.type === "application/pdf") {
+        const reader = new FileReader();
+        reader.onload = function() {
+            const pdfData = new Uint8Array(this.result);
+            pdfjsLib.getDocument(pdfData).promise.then(function(pdf) {
+                let pdfText = "";
+                const textPromises = [];
+                for (let pageNum = 1; pageNum < pdf.numPages + 1; pageNum++) {
+                    textPromises.push(
+                        pdf.getPage(pageNum).then(function(page) {
+                            return page.getTextContent().then(function(textContent) {
+                                const pageText = textContent.items.map(item => item.str).join(" ");
+                                pdfText = pageText + pdfText + "\n";
+                            });
+                        })
+                    );
+                }
+                Promise.all(textPromises).then(() => {
+                    pdfText = pdfText.replace(/\s{2,}/g, ' ')
+                    document.getElementById("inputText").value = pdfText;
+                });
+            });
+        };
+        reader.readAsArrayBuffer(file);
+    } else {
+        alert("Please upload a valid PDF file.");
+    }
+});
+
+// Toggle between Showing Text Output and Timeline Output
 function toggleContent() {
     const showText = document.getElementById("showText").checked;
     const showImage = document.getElementById("showTimeline").checked;

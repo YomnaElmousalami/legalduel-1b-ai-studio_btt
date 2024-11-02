@@ -12,6 +12,10 @@ body {
     color: white;
 }
 
+#pdfUpload {
+    margin-bottom: 5px;
+}
+
 #inputText {
     padding: 20px;
     font-size: 18px;
