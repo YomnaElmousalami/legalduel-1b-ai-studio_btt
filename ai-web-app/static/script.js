@@ -16,7 +16,6 @@ document.getElementById("inputForm").addEventListener("submit", async function (
     const timeline = document.querySelector('.timeline');
 
     let container_left_Tracker = true;
-    let container_right_Tracker = true;
 
     if (response.ok) {
         const events = result.summary.split("\n"); // Split for each new line
