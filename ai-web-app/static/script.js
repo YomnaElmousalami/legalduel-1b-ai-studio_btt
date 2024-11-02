@@ -1,4 +1,3 @@
-
 document.getElementById("inputForm").addEventListener("submit", async function (event) {
     event.preventDefault();
 
@@ -18,14 +17,14 @@ document.getElementById("inputForm").addEventListener("submit", async function (
     let container_left_Tracker = true;
 
     if (response.ok) {
-        const events = result.summary.split("\n"); // Split for each new line
-        outputElement.textContent = '';  // Clear previous content
+        const events = result.summary.split("\n"); 
+        outputElement.textContent = '';  
         timeline.textContent = '';
 
         events.forEach(event => {
-            const newLine = document.createElement("p");  // Create a new paragraph element for each event
+            const newLine = document.createElement("p"); 
             newLine.textContent = event; 
-            outputElement.appendChild(newLine);  // Append to the output element
+            outputElement.appendChild(newLine);  
             
             const [date, description] = event.split(":"); 
             if (date && description) {
@@ -44,7 +43,7 @@ document.getElementById("inputForm").addEventListener("submit", async function (
 
                 timeline_content.innerHTML = `
                     <div class="content">
-                        <h2>${date.trim()}</h2> <!--trim: removes whitespace from both sides of a string.--> 
+                        <h2>${date.trim()}</h2> 
                         <p>${description.trim()}</p>
                     </div>
                 `;
