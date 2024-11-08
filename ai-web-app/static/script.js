@@ -52,7 +52,9 @@ document.getElementById("inputForm").addEventListener("submit", async function (
 
 
         });
-    } else {
+        timelineTracker++;
+    } 
+    else {
         outputElement.textContent = result.error || "Something went wrong!";
     }
 });
@@ -97,3 +99,15 @@ function toggleContent() {
     document.getElementById("textContent").style.display = showText ? "block" : "none";
     document.getElementById("timelineContent").style.display = showImage ? "block" : "none";
 }
+
+const button = document.getElementById('download-button');
+
+function generatePDF() {
+  const element = document.getElementById('timeline_download');
+  const pdf_styling = {
+	filename: 'chronology.pdf',
+};
+   html2pdf().set(pdf_styling).from(element).save();
+}
+
+button.addEventListener('click', generatePDF);

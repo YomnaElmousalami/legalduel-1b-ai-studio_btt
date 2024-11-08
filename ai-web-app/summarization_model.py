@@ -10,7 +10,8 @@ client = OpenAI(api_key=os.getenv("OPENAI_KEY"))
 @Language.component("openai_summarizer")
 def summarize_text(doc):
     """Custom component that summarizes the text using OpenAI's GPT model."""
-    prompt = ("Please take the following document and create a chronology from it in markdown with a header called chronology."
+    prompt = ("Please take the following document and create a chronology with the dates and events sorted in strict chronological order." 
+        "Present output in markdown with a header called chronology."
         "Format dates in UTC."
         "Follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
         "Seperate each event with a new line character."
