@@ -18,11 +18,11 @@ def summarize_text(doc):
             
     #date_string = " ".join(dates)
     prompt = (
-        "Please accurately take the following document to create a legal chronology." 
-        #"Please also use the dates here in this string: \n{date_string}\n" 
-        "Present output in markdown with a header called chronology."
+        "Please take the following document and create a chronology from it in markdown."
+         #"Please also use the dates here in this string: \n{date_string}\n" 
+        "Present the output with a header called chronology."
         "Format dates in UTC."
-        "Please follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
+        "Follow a format of 'DATE (MM/DD/YYYY): EVENT SUMMARIZATION'."
         "Seperate each event with a new line character."
         "Make sure the dates are in chronological order"
         "Take your time, and make sure to think through it as to minimize error.")
