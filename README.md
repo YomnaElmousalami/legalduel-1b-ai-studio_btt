@@ -19,7 +19,6 @@ We were given given 30 samples of mock interviews, emails, and other documents. 
 
 ### Sample Data set:
 <br>
-<br>
 <img src="images/sample data set.png" alt="Alt Text" width="1400">
 
 ## Exploratory Data Analysis
