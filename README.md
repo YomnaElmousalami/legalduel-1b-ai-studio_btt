@@ -8,6 +8,7 @@
 - [Usage](#usage)
 - [Potential Next Steps](#potential-next-steps)
 - [Installation](#installation)
+- [Usage](#usage)
 
 # Business Focus
 The goal of the project was to develop AI-driven solutions for common legal tasks, including content generation. For this project, we developed an AI driven web application to create legal chronologies from a set of given text documents provided by the LegalDuel platform. Chronologies are documents that outline a timeline of events, regarding a legal case. They are typically compiled by an attorney sifting through vast amounts of interviews, emails, and other documents to build a timeline. The purpose of creating this AI web application was to make it eaiser for lawyers to spend less time tediously creating chronologies, so instead they can focus on other pressing issues. Additionally, this project is useful for customers at law firms because with more time, competition, and innovation from our AI tool, law firms can help clients more efficiently for less money. Lastly, our project will our allow for more competition and innovatative solutions since new and unique solutions arise from increased competition, since AI tools are being constantly added into the legal sector. 
@@ -108,5 +109,13 @@ gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the
 Some potential next steps we are considering are continintg to finetune both of the model (gpt-3.5 and gpt-4.0) until we find the ideal hyperparameters that produce the best results, with the lowest training cost. Once we find the best hyperparameters, then we can decide on choosing the models that have a lower cost. Considering we found one model that underfits and one that overfits, it would be nice to find a model that does do either.
 
 # Installation
+## Simple Flask App Interface for Chronology Model using GPT-Turbo
+#### TO USE
+1. `git clone https://github.com/tiffanyfu7/legalduel-1b-ai-studio/tree/main` repository and `cd ai-web-app`
+2. `pip install Flask spacy spacy-llm openai python-dotenv`
+3. add `.env` file in top ai-web-app directory and add api-key <br>
+```OPENAI_API_KEY="{your api key}"``` <br>
+    (note: purchase key at <a href="https://platform.openai.com/api-keys">OpenAI Platform</a>)
+4. run python app.py and test in http://127.0.0.1:5000
 
 # Usage
