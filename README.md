@@ -50,11 +50,11 @@ We selected two candidate models to explore which one produced the best chronolo
 - gpt-4o-2024-08-06: We selected this model because of its increased accuracy of generating the best responses, despite the cost of training being high.
   
 ## Prompt Engineering
-To generate the best chronology with our two selected models, we decided to use prompt engineering, which is a set of instructions used to generate the best output for our model. To generate the best prompt we decideded to use specific keywords to define our ideal output. For example we stated how we wanted our model to follow the format of 'DATE (MM/DD/YYY): EVENT SUMMARIZATION' as well as 'UTC' format. This gave it a frame of reference on how we wanted our output to be produced instead of saying create a chronology. After specifying our prompt, 
+To generate the best chronology with our two selected models, we decided to use prompt engineering, which is a set of instructions used to generate the best output for our model. To generate the best prompt we decideded to use specific keywords to define our ideal output. For example we stated how we wanted our model to follow the format of 'DATE (MM/DD/YYY): EVENT SUMMARIZATION' as well as 'UTC' format. This gave it a frame of reference on how we wanted our output to be produced instead of saying create a chronology. After specifying our prompt, we decided to use the OpenAI Chat Completions API endpoint to generate the chronologies.
 
-**Example of prompt engineering:**
+**Example of prompt engineering and Chat Completions endpoint:**
 <br>
-<img src="images/" alt="Alt Text" width="1400">
+<img src="images/prompt engineering and chat completions.png" alt="Alt Text" width="1400">
 
 
 ## Model Trianing
