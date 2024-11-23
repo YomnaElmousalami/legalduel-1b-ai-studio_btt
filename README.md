@@ -134,8 +134,8 @@ Some potential next steps we are considering are continintg to finetune both of 
 9. To see the textual output of the chronology, check the "Show Text" Option 
 10. To see the visual timeline of the chronology, check the "Show Timeline" Option
 Note: (You check have both the "Show Text" and "Show Timeline" options checked simultaneously)
-12. Once the "Show Timeline" option has been checked, you can download the visual timeline by clicking the "Donwload Timeline" Button. This will produce a pdf version of the visual timeline.
-13. Once you are done using the program type "CTRL + C"
+11. Once the "Show Timeline" option has been checked, you can download the visual timeline by clicking the "Donwload Timeline" Button. This will produce a pdf version of the visual timeline.
+12. Once you are done using the program type "CTRL + C"
 
 ### Step 1:
 <br>
@@ -171,4 +171,8 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 <img src="images/generate chronology button.png" alt="Alt Text" width="500">
 
 ### Step 9
+<br>
+<img src="images/Chronology text.png" alt="Alt Text" width="500">
+
+### Step 10
 <br>
