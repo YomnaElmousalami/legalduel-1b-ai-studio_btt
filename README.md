@@ -46,7 +46,9 @@ The first step in this process was converting the documents from .docx to plain 
 # Approach
 We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint input prompt. The purpose of a chat completeions input prompt is to generate an output of a chronology, in text, based on specific parameters. Here is an example of a chat completions input prompt we used:
 
-{"messages": [{"role": "system", "content": "Please take the following document and create a chronology. Follow a format of 'DATE (Month Day, Year): EVENT SUMMARIZATION'. Seperate each event with a new line character. Make sure the dates are in chronological order. Take your time, and make sure to think through it as to minimize error."}, {"role": "user", "content":"John: I believe that I saw his car out last Tuesday, sorry it was on Wednesday actually. "},{"role": "assistant", "content":"October 30, 2024: John saw the car."}]}
+{"messages": [{"role": "system", "content": "Please take the following document and create a chronology. Follow a format of 'DATE (Month Day, Year): EVENT SUMMARIZATION'. Seperate each event with a new line character. Make sure the dates are in chronological order. Take your time, and make sure to think through it as to minimize error."}, 
+{"role": "user", "content":"John: I believe that I saw his car out last Tuesday, sorry it was on Wednesday actually. "},
+{"role": "assistant", "content":"October 30, 2024: John saw the car."}]}
 
 ## Selected Models
 - gpt-3.5-turbo-0125: We selected this model because it had a low cost in training.
