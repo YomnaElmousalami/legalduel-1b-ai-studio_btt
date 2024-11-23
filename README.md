@@ -127,8 +127,8 @@ Some potential next steps we are considering are continintg to finetune both of 
 2. Type "python app.py" or "python3 app.py"
 3. Click "Open in Browser"
 4. Once your click the button, you will find the inital layout of the web application. The left most side contains the area where the user can input text and the right hand side is where the output, or chronology, is generated. In the output section, the "Show Text" box is checked but you can also check and uncheck the "Show Timeline" option.
-5. You can either enter the next manually.
-6. Or you can upload a pdf version of text.
+5. You can either enter the next manually (it will say "No File Choosen" next to the "Choose File" button).
+6. Or you can upload a pdf version of text (it will say the name of the file next to the "Choose File" button).
 7. If a non-pdf file is uploaded, the web application will display an error message stating that you need to select a .pdf file.
 8. Click the "Generate Chronology Button"
 9. To see the textual output of the chronology, check the "Show Text" Option 
@@ -137,17 +137,20 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 12. Once the "Show Timeline" option has been checked, you can download the visual timeline by clicking the "Donwload Timeline" Button. This will produce a pdf version of the visual timeline.
 13. Once you are done using the program type "CTRL + C"
 
-**Step 1:** 
+### Step 1:
 <br>
-<img src="images/cd_ai-web-app.png" alt="Alt Text" width="500">
+<img src="images/cd_ai-web-app.png" alt="Alt Text" width="800">
 
-**Step 2:**
+### Step 2:
 <br>
 <img src="images/python app.py.png" alt="Alt Text" width="1000">
 
-**Step 3:**
+### Step 3:
 <br>
 <img src="images/click open in browser button.png" alt="Alt Text" width="500">
 
-**Step 4:**
+### Step 4:
 <br>
+<img src="images/screen of web app.png" alt="Alt Text" width="1000">
+
+### Step 5: 
