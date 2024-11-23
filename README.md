@@ -138,4 +138,6 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 13. Once you are done using the program type "CTRL + C"
 
 **Step 1:** 
-<img src="images/cd_ai-web-app.png" alt="Alt Text" width="300">
+<img src="images/cd_ai-web-app.png" alt="Alt Text" width="500">
+
+**Step 2:**
