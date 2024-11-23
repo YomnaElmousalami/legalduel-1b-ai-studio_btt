@@ -4,7 +4,7 @@
 - [Business Focus](#business-focus)
 - [Data Preparation and Validation](#data-preparation-and-validation)
 - [Approach](#approach)
-- [Key Findings and Insights)(#key-findings-and-insights)
+- [Key Findings and Insights](#key-findings-and-insights)
 - [Usage](#usage)
 
 # Business Focus
