@@ -17,7 +17,6 @@ The goal of the project was to develop AI-driven solutions for common legal task
 ## Dataset Overview
 We were given given 30 samples of mock interviews, emails, and other documents. They are not real case scenarios. All of the data was on .docx format and there was a total of 701 KB of data.
 <br>
-<br>
 ### Sample Data set:
 <br>
 <br>
