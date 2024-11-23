@@ -130,7 +130,7 @@ Some potential next steps we are considering are continintg to finetune both of 
 5. You can either enter the next manually (it will say "No File Choosen" next to the "Choose File" button).
 6. Or you can upload a pdf version of text (it will say the name of the file next to the "Choose File" button).
 7. If a non-pdf file is uploaded, the web application will display an error message stating that you need to select a .pdf file.
-8. Click the "Generate Chronology Button"
+8. Click the "Generate Chronology Button" 
 9. To see the textual output of the chronology, check the "Show Text" Option 
 10. To see the visual timeline of the chronology, check the "Show Timeline" Option
 Note: (You check have both the "Show Text" and "Show Timeline" options checked simultaneously)
@@ -163,4 +163,8 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 <img src="images/upload pdf pt.2.png" alt="Alt Text" width="500">
 
 ### Step 7
+<br>
+<img src="images/error with other file types.png" alt="Alt Text" width="500">
+
+### Step 8
 <br>
