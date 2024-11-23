@@ -42,8 +42,17 @@ The first step in this process was converting the documents from .docx to plain 
 ### Example of Spacy and ChatGPT code and response:
 
 # Approach
-We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.json using the chat completions standard:
+We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint. The purpose of a chat completeions endpoint is to generate an output of a chronologies, in text, based on specific parameters. Here is an example of a chat completions endpoint:
 
+response = client.chat.completions.create(
+  model="gpt-3.5-turbo",
+  messages=[
+{"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Who won the world series in 2020?"},
+    {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
+{"role": "user", "content": "Where was it played?"}
+  ]
+)
 
 ## Selected Models
 - gpt-3.5-turbo-0125: We selected this model because it had a low cost in training.
