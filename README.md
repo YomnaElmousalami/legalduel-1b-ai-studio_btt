@@ -40,9 +40,16 @@ The first step in this process was converting the documents from .docx to plain 
 <img src="images/Spacy Date Extraction.png" alt="Alt Text" width="500">
 
 # Approach
+## Selected Models
+- gpt-3.5-turbo-0125
+- gpt-4o-2024-08-06
+  
 We utilized two approaches to generate the chronologies: Prompt engineering and model finetuning. 
 
 ## Prompt Engineering
+To generate the best responses
+
+## Model Finetuning
 
 # Usage
 For this project, we developed an AI driven web application to create legal chronologies from a set of given text documents provided by the LegalDuel platform. However, you can upload a pdf file from your personal device or type in the text you want to convert it into a chronology. After you insert the desired text, the web application will generate physical text description of your chronology and you can also download a visual timeline of the chronology. 
