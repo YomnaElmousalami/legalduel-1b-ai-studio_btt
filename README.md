@@ -29,7 +29,7 @@ We read the sample documents provided to us, made the chronologies by hand, and 
 <img src="images/chatgpt_chronology.png" alt="Alt Text" width="1000">
 
 ## Data Cleaning and Preprocessing
-The first step in this process was converting the documents from .docx to plain text format. Afterwards, we experimented with date and event extraction using libraries such as SpaCy, Stanford Core NLP, and Duckling. However, after going through this process we realized that integrating ChatGPT with Spacy would be eaiser since SpaCy already has cleaning and preprocessing built into its own model, and ChatGPT allowed for chat completetions response generation. 
+The first step in this process was converting the documents from .docx to plain text format. Afterwards, we experimented with date and event extraction using libraries such as SpaCy, Stanford Core NLP, and Duckling. However, after going through this process we realized that integrating ChatGPT with Spacy would be eaiser since SpaCy already has cleaning and natural language preprocessing built in, and ChatGPT allows for a chat completetions response generation. 
 
 ### Example of Spacy Entity Identification Code:
 <br>
@@ -44,7 +44,16 @@ The first step in this process was converting the documents from .docx to plain 
 <img src="images/Spacy and Chatgpt.png" alt="Alt Text" width="1400">
 
 # Approach
-We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint input prompt. The purpose of a chat completeions input prompt is to generate an output of a chronology, in text, based on specific parameters. Here is an example of a chat completions input prompt we used:
+## Selected Models
+We selected two candidate models to explore which one produced the best chronologies. 
+- gpt-3.5-turbo-0125: We selected this model because it had a low cost in training.
+- gpt-4o-2024-08-06: We selected this model because of its increased accuracy of generating the best responses, despite the cost of training being high.
+  
+## Prompt Engineering
+To generate the best chronology, we decided to use prompt engineering, which is a set of instructions used to generate the best output for our model. 
+
+## Model Trianing
+We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint input prompt. The purpose of a chat completeions input prompt is to generate an output of a chronology, in text, based on specific parameters. Here is an example of a chat completions input prompt:
 
 {"messages": 
 <br>
@@ -54,19 +63,12 @@ We decided to train our model with the OpenAI Dashboard. We created 10 training 
 <br>
 {"role": "assistant", "content":"October 30, 2024: John saw the car."}]}
 
-As seen above, the "messages" section is where you can customize the model to behave. Within each message there is a set of roles and content associated with each role. In our above examples, we specified each role with either "system, "user," or "assistant." The "system" role allows you to specify the behavior of the model that you are using. 
+**Explanation of Chat Completions Input:**
+As seen above, the "messages" section is where you can customize your desired model. Within each message there is a set of roles and content associated with each role. In our above examples, we specified each role with either "system, "user," or "assistant." The "system" role allows you to specify the behavior of the model that you are using. The role of "user" acts as a user who is typing an input into the chatbot. And, the role of "assistant" is the desired response that the model should produce. The "content" is the query or response associated with each role. In the above example, the "system" role is acting as an assistant that generates a chronology with specific instructions, although the word "assistant" is not specified. Meanwhile, the "user" role contains an input response (content) that a user puts into the chatbot. And finally, the content associated with the "assistant" role contains a sample output response that it should provide. 
 
-## Selected Models
-- gpt-3.5-turbo-0125: We selected this model because it had a low cost in training.
-- gpt-4o-2024-08-06: We selected this model because of its increased accuracy of generating the best responses, despite the cost of training being high. 
+**Model Hyperparameters to train with:**
+We decided to train the models based on the hyperparameters of the number of epochs, batch size, LR multiplier, and seed. 
   
-We utilized two approaches to generate the chronologies: Prompt engineering and model finetuning. 
-
-## Prompt Engineering
-To generate the best responses
-
-## Model Finetuning
-
 # Usage
 For this project, we developed an AI driven web application to create legal chronologies from a set of given text documents provided by the LegalDuel platform. However, you can upload a pdf file from your personal device or type in the text you want to convert it into a chronology. After you insert the desired text, the web application will generate physical text description of your chronology and you can also download a visual timeline of the chronology. 
 
