@@ -182,3 +182,4 @@ Part of the visual timeline because it is too big to fit here:
 
 ### Step 11
 <br>
+<img src="images/download timeline.png" alt="Alt Text" width="500">
