@@ -6,6 +6,8 @@
 - [Approach](#approach)
 - [Key Findings and Insights](#key-findings-and-insights)
 - [Usage](#usage)
+- [Potential Next Steps](#potential-next-steps)
+- [Installation](#installation)
 
 # Business Focus
 The goal of the project was to develop AI-driven solutions for common legal tasks, including content generation. For this project, we developed an AI driven web application to create legal chronologies from a set of given text documents provided by the LegalDuel platform. Chronologies are documents that outline a timeline of events, regarding a legal case. They are typically compiled by an attorney sifting through vast amounts of interviews, emails, and other documents to build a timeline. The purpose of creating this AI web application was to make it eaiser for lawyers to spend less time tediously creating chronologies, so instead they can focus on other pressing issues. Additionally, this project is useful for customers at law firms because with more time, competition, and innovation from our AI tool, law firms can help clients more efficiently for less money. Lastly, our project will our allow for more competition and innovatative solutions since new and unique solutions arise from increased competition, since AI tools are being constantly added into the legal sector. 
@@ -78,9 +80,9 @@ As seen above, the "messages" section is where you can customize your desired mo
 **Model Hyperparameters to train with:**
 We decided to train the models based on the hyperparameters of the number of epochs, batch size, and LR multiplier. 
 
-## Key Findings and Insights
+# Key Findings and Insights
 
-## Key Findings
+### Key Findings
 gpt-3.5-turbo-0125: We utilized the default training hyperparameter values: 3 epochs, 1 batch size, and an LR multiplier of 2. The purpose of doing this was to see how the default values would measure, compared to adjusted hyperparameter values. Although the training cost was low, it did produce a significantly high training loss of 0.8. This suggests that the model is most likely underfitting. 
 
 gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the best results, we decided to try different hyperparameters for this model: 10 epochs, 1 batch size, and an LR multiplier of 2. As a result, the training loss was significantly lower: 0.0027. Although a low training loss is usually good, this training loss is significantly low. This suggests that the model is most likely severly overfitting. 
@@ -95,6 +97,16 @@ gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the
 <br>
 <br>
 <img src="images/gpt 4 hyperparameters.png" alt="Alt Text" width="500">
-  
-# Usage
+<img src="images/gpt 4 training loss.png" alt="Alt Text" width="1000">
 
+### Insights
+- gpt-4o-2024-08-06 is better at reducing training loss but has a high cost
+- An epoch number that is too high can cause the model to overfit, as seen with gpt-3.5
+- Communication is the best when working with teams, especially when scheduling meetings or if it is your first time working with AI models.
+
+# Potential Next Steps
+Some potential next steps we are considering are continintg to finetune both of the model (gpt-3.5 and gpt-4.0) until we find the ideal hyperparameters that produce the best results, with the lowest training cost. Once we find the best hyperparameters, then we can decide on choosing the models that have a lower cost. Considering we found one model that underfits and one that overfits, it would be nice to find a model that does do either.
+
+# Installation
+
+# Usage
