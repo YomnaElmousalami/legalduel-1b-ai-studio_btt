@@ -154,3 +154,8 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 <img src="images/screen of web app.png" alt="Alt Text" width="1000">
 
 ### Step 5: 
+<br>
+<img src="images/manually inputting text.png" alt="Alt Text" width="500">
+
+### Step 6:
+<br>
