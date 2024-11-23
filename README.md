@@ -14,6 +14,7 @@ The goal of the project was to develop AI-driven solutions for common legal task
 <img src="images/example_of_a_legal_chronology.png" alt="Alt Text" width="1400">
 
 # Data Preparation and Validation
+## Dataset Overview
 
 # Usage
 For this project, we developed an AI driven web application to create legal chronologies from a set of given text documents provided by the LegalDuel platform. However, you can upload a pdf file from your personal device or type in the text you want to convert it into a chronology. After you insert the desired text, the web application will generate physical text description of your chronology and you can also download a visual timeline of the chronology. 
