@@ -144,3 +144,10 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 **Step 2:**
 <br>
 <img src="images/python app.py.png" alt="Alt Text" width="1000">
+
+**Step 3:**
+<br>
+<img src="images/click open in browser button.png" alt="Alt Text" width="500">
+
+**Step 4:**
+<br>
