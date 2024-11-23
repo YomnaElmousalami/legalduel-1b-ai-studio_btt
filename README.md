@@ -178,9 +178,11 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 <br>
 Part of the visual timeline because it is too big to fit here:
 <br>
-<img src="images/images/chronology timeline.png" alt="Alt Text" width="500">
+<img src="images/chronology timeline.png" alt="Alt Text" width="500">
 
 ### Step 11
 <br>
 <img src="images/download timeline.png" alt="Alt Text" width="500">
-<iframe src="(images/chronology (7).pdf" width="100%" height="600px"></iframe>
+
+### Step 12
+<br>
