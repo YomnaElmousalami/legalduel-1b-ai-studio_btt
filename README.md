@@ -159,3 +159,8 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 
 ### Step 6:
 <br>
+<img src="images/upload pdf pt.1.png" alt="Alt Text" width="500">
+<img src="images/upload pdf pt.2.png" alt="Alt Text" width="500">
+
+### Step 7
+<br>
