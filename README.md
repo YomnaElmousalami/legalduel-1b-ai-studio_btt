@@ -79,11 +79,16 @@ As seen above, the "messages" section is where you can customize your desired mo
 We decided to train the models based on the hyperparameters of the number of epochs, batch size, and LR multiplier. 
 
 ## Key Findings and Insights
+
+## Key Findings
 gpt-3.5-turbo-0125: We utilized the default training hyperparameter values: 3 epochs, 1 batch size, and an LR multiplier of 2. The purpose of doing this was to see how the default values would measure, compared to adjusted hyperparameter values. Although the training cost was low, it did produce a significantly high training loss of 0.8. This suggests that the model is most likely underfitting. 
 
 gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the best results, we decided to try different hyperparameters for this model: 10 epochs, 1 batch size, and an LR multiplier of 2. As a result, the training loss was significantly lower: 0.0027. Although a low training loss is usually good, this training loss is significantly low. This suggests that the model is most likely severly overfitting. 
 
 **gpt-3.5-turbo-0125 training hyperparameters and results:**
+<br>
+<img src="images/gpt-3.5 hyperparameters.png" alt="Alt Text" width="1400">
+
 **gpt-4o-2024-08-06:**
   
 # Usage
