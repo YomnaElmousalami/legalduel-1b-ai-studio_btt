@@ -39,7 +39,7 @@ The first step in this process was converting the documents from .docx to plain 
 <br>
 <img src="images/Spacy Date Extraction.png" alt="Alt Text" width="500">
 
-### Example of Spacy and ChatGPT code and response:
+### Example of Spacy and ChatGPT code and response in text:
 <br>
 <img src="images/Spacy and Chatgpt.png" alt="Alt Text" width="1400">
 
@@ -51,6 +51,11 @@ We selected two candidate models to explore which one produced the best chronolo
   
 ## Prompt Engineering
 To generate the best chronology with our two selected models, we decided to use prompt engineering, which is a set of instructions used to generate the best output for our model. To generate the best prompt we decideded to use specific keywords to define our ideal output. For example we stated how we wanted our model to follow the format of 'DATE (MM/DD/YYY): EVENT SUMMARIZATION' as well as 'UTC' format. This gave it a frame of reference on how we wanted our output to be produced instead of saying create a chronology. After specifying our prompt, 
+
+**Example of prompt engineering:**
+<br>
+<img src="images/" alt="Alt Text" width="1400">
+
 
 ## Model Trianing
 We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint input prompt. The purpose of a chat completeions input prompt is to generate an output of a chronology, in text, based on specific parameters. Here is an example of a chat completions input prompt:
