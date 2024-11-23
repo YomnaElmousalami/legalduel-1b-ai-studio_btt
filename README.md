@@ -44,18 +44,7 @@ The first step in this process was converting the documents from .docx to plain 
 <img src="images/Spacy and Chatgpt.png" alt="Alt Text" width="1400">
 
 # Approach
-We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint. The purpose of a chat completeions endpoint is to generate an output of a chronologies, in text, based on specific parameters. Here is an example of a chat completions endpoint:
-
-response = client.chat.completions.create(
-  model="gpt-3.5-turbo",
-  messages=[
-{"role": "system", "content": "You are a helpful assistant."},
-{"role": "user", "content": "Who won the world series in 2020?"},
-{"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
-{"role": "user", "content": "Where was it played?"}]
-)
-
-As seen, the "model" is used to specify the type of model that will be used to generate the responses.
+We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint input prompt. The purpose of a chat completeions input prompt is to generate an output of a chronology, in text, based on specific parameters. Here is an example of a chat completions input prompt we used:
 
 ## Selected Models
 - gpt-3.5-turbo-0125: We selected this model because it had a low cost in training.
