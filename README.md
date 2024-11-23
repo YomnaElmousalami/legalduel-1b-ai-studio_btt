@@ -39,10 +39,15 @@ The first step in this process was converting the documents from .docx to plain 
 <br>
 <img src="images/Spacy Date Extraction.png" alt="Alt Text" width="500">
 
+### Example of Spacy and ChatGPT code and response:
+
 # Approach
+We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.json using the chat completions standard:
+
+
 ## Selected Models
-- gpt-3.5-turbo-0125
-- gpt-4o-2024-08-06
+- gpt-3.5-turbo-0125: We selected this model because it had a low cost in training.
+- gpt-4o-2024-08-06: We selected this model because of its increased accuracy of generating the best responses, despite the cost of training being high. 
   
 We utilized two approaches to generate the chronologies: Prompt engineering and model finetuning. 
 
