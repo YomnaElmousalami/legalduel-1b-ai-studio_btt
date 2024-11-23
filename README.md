@@ -186,3 +186,4 @@ Part of the visual timeline because it is too big to fit here:
 
 ### Step 12
 <br>
+<img src="images/type CTRL + C.png" width="500">
