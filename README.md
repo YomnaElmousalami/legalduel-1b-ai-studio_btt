@@ -9,6 +9,9 @@
 - [Potential Next Steps](#potential-next-steps)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Credits and Acknowledgements](#credits-and-acknowledgements)
 
 # Business Focus
 The goal of the project was to develop AI-driven solutions for common legal tasks, including content generation. For this project, we developed an AI driven web application to create legal chronologies from a set of given text documents provided by the LegalDuel platform. Chronologies are documents that outline a timeline of events, regarding a legal case. They are typically compiled by an attorney sifting through vast amounts of interviews, emails, and other documents to build a timeline. The purpose of creating this AI web application was to make it eaiser for lawyers to spend less time tediously creating chronologies, so instead they can focus on other pressing issues. Additionally, this project is useful for customers at law firms because with more time, competition, and innovation from our AI tool, law firms can help clients more efficiently for less money. Lastly, our project will our allow for more competition and innovatative solutions since new and unique solutions arise from increased competition, since AI tools are being constantly added into the legal sector. 
@@ -116,6 +119,12 @@ Some potential next steps we are considering are continintg to finetune both of 
 3. add `.env` file in top ai-web-app directory and add api-key <br>
 ```OPENAI_API_KEY="{your api key}"``` <br>
     (note: purchase key at <a href="https://platform.openai.com/api-keys">OpenAI Platform</a>)
-4. run python app.py or python3 app.py and test in http://127.0.0.1:5000
+4. run "python app.py" or "python3 app.py" and test in http://127.0.0.1:5000
+6. To stop the program type CTRL + C
 
 # Usage
+1. Type cd ai-web-app into the command line.
+2. Type "python app.py" or "python3"
+3. Click "Open in Browser"
+4. Once your click the button, you will find the inital layout of the web application. The left most side contains the area where the user can input text and the right hand side is where the output, or chronology, is generated. In the output section, the "Show Text" box is checked but you can also check and uncheck the "Show Timeline" option.
+5. 
