@@ -116,6 +116,6 @@ Some potential next steps we are considering are continintg to finetune both of 
 3. add `.env` file in top ai-web-app directory and add api-key <br>
 ```OPENAI_API_KEY="{your api key}"``` <br>
     (note: purchase key at <a href="https://platform.openai.com/api-keys">OpenAI Platform</a>)
-4. run python app.py and test in http://127.0.0.1:5000
+4. run python app.py or python3 app.py and test in http://127.0.0.1:5000
 
 # Usage
