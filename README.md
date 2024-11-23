@@ -136,3 +136,6 @@ Some potential next steps we are considering are continintg to finetune both of 
 Note: (You check have both the "Show Text" and "Show Timeline" options checked simultaneously)
 12. Once the "Show Timeline" option has been checked, you can download the visual timeline by clicking the "Donwload Timeline" Button. This will produce a pdf version of the visual timeline.
 13. Once you are done using the program type "CTRL + C"
+
+**Step 1:** 
+<img src="images/cd_ai-web-app.png" alt="Alt Text" width="300">
