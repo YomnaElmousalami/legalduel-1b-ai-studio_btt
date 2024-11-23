@@ -187,3 +187,8 @@ Part of the visual timeline because it is too big to fit here:
 ### Step 12
 <br>
 <img src="images/type CTRL + C.png" width="500">
+
+# Contributing
+
+# License
+This license is under the Apache License 2.0: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
