@@ -120,11 +120,19 @@ Some potential next steps we are considering are continintg to finetune both of 
 ```OPENAI_API_KEY="{your api key}"``` <br>
     (note: purchase key at <a href="https://platform.openai.com/api-keys">OpenAI Platform</a>)
 4. run "python app.py" or "python3 app.py" and test in http://127.0.0.1:5000
-6. To stop the program type CTRL + C
+6. To stop the program type "CTRL + C"
 
 # Usage
 1. Type cd ai-web-app into the command line.
-2. Type "python app.py" or "python3"
+2. Type "python app.py" or "python3 app.py"
 3. Click "Open in Browser"
 4. Once your click the button, you will find the inital layout of the web application. The left most side contains the area where the user can input text and the right hand side is where the output, or chronology, is generated. In the output section, the "Show Text" box is checked but you can also check and uncheck the "Show Timeline" option.
-5. 
+5. You can either enter the next manually.
+6. Or you can upload a pdf version of text.
+7. If a non-pdf file is uploaded, the web application will display an error message stating that you need to select a .pdf file.
+8. Click the "Generate Chronology Button"
+9. To see the textual output of the chronology, check the "Show Text" Option 
+10. To see the visual timeline of the chronology, check the "Show Timeline" Option
+Note: (You check have both the "Show Text" and "Show Timeline" options checked simultaneously)
+12. Once the "Show Timeline" option has been checked, you can download the visual timeline by clicking the "Donwload Timeline" Button. This will produce a pdf version of the visual timeline.
+13. Once you are done using the program type "CTRL + C"
