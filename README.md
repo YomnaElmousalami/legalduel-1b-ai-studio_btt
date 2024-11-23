@@ -87,7 +87,9 @@ gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the
 
 **gpt-3.5-turbo-0125 training hyperparameters and results:**
 <br>
-<img src="images/gpt-3.5 hyperparameters.png" alt="Alt Text" width="1400">
+<br>
+<img src="images/gpt-3.5 hyperparameters.png" alt="Alt Text" width="1000">
+<img src="images/gpt-3.5 training loss.png" alt="Alt Text" width="1000">
 
 **gpt-4o-2024-08-06:**
   
