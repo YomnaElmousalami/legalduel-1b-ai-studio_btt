@@ -25,7 +25,7 @@ We read the sample documents provided to us, made the chronologies by hand, and 
 
 ### Example Chronology generated from ChatGPT:
 <br>
-<img src="images/chatgpt_chronology.png" alt="Alt Text" width="1400">
+<img src="images/chatgpt_chronology.png" alt="Alt Text" width="1000">
 
 ## Data Cleaning and Preprocessing
 The first step in this process was converting the documents from .docx to plain text format. Afterwards, we experimented with date and event extraction using libraries such as SpaCy, Stanford Core NLP, and Duckling. However, after going through this process we realized that integrating ChatGPT with Spacy would be eaiser since it already has cleaning and preprocessing built into its own model
