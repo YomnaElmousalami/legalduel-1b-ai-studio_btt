@@ -10,7 +10,8 @@ The goal of the project was to develop AI-driven solutions for common legal task
 
 Example of a legal Chronology:
 <br>
-<img src="images/example_of_a_legal_chronology.png" alt="Alt Text" width="400">
+<br>
+<img src="images/example_of_a_legal_chronology.png" alt="Alt Text" width="1400">
 
 # Data Preparation and Validation
 
