@@ -143,4 +143,4 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 
 **Step 2:**
 <br>
-<img src="images/python app.py.png" alt="Alt Text" width="500">
+<img src="images/python app.py.png" alt="Alt Text" width="1000">
