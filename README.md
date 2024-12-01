@@ -116,7 +116,9 @@ gpt-3.5-turbo-0125 (10 epochs): We utilized the default training hyperparameter 
 <br>
 
 ### Insights
-- gpt-4o-2024-08-06 is better at reducing training loss but has a high cost
+- The jsonl files did not necessarily have an affect on the training losses. We just wanted to create more refined examples to optimize the prompts with prompt engineering. 
+- gpt-4o-2024-08-06 is better at reducing training loss but has a high cost.
+- However, gpt-3.5-turbo-0125 (default parameters) had a high training loss, indicting that the model may be underfitting. 
 - However, gpt-3.5-turbo-0125 (10 epochs) also had a low training loss but a lower cost. Therefore, it was the best model we tested. 
 - Although gpt-3.5-turbo-0125 (10 epochs) performed the best, the high epoch numbers of gpt-4o-2024-08-06 and gpt-3.5-turbo-0125 (10 epochs), may have caused the models to overfit, as seen by the training losses.
 - Communication is the best when working with teams, especially when scheduling meetings or if it is your first time working with AI models.
