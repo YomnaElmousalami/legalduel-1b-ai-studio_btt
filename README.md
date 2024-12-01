@@ -134,7 +134,7 @@ gpt-3.5-turbo-0125 (5 epochs): We utilized the default training hyperparameter v
 - Communication is the best when working with teams, especially when scheduling meetings or if it is your first time working with AI models.
 
 # Potential Next Steps
-Some potential next steps we are considering are continintg to finetune both of the model (gpt-3.5 and gpt-4.0) until we find the ideal hyperparameters that produce the best results, with the lowest training cost. Once we find the best hyperparameters, then we can decide on choosing the models that have a lower cost. Considering we found one model that underfits and one that overfits, it would be nice to find a model that does do either.
+Some potential next steps we are considering are continintg to finetune both of the models (gpt-3.5-turbo-0125 and gpt-4o-2024-08-06) until we find the ideal hyperparameters that produce the best results, with the lowest training cost. However, we did not train every model, so it would be interesting to continue comparing and contrasting the results. Once we find the best model, we can then see how the models perform with a validation set. Once we find the model that perfoms the best on both the training and validation sets, we are considering trying out different LLMs to see which ones produce the best results. 
 
 # Installation
 ## Simple Flask App Interface for Chronology Model using GPT-Turbo
