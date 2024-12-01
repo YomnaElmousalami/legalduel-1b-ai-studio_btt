@@ -106,7 +106,7 @@ gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the
 <img src="images/gpt 4 training loss.png" alt="Alt Text" width="1000">
 
 ### training_formatted.jsonl
-After seeing the results from training1.jsonl, we decided to try more refined, longer, but same syntaxed examples to see if the results were better. Similar to training1.jsonl, we used chat completions to create 10 more training examples. To see how they were formatted, go to the section titled "training1.jsonl."
+After seeing the results from training1.jsonl, we decided to try more refined, longer, but same syntaxed examples to better prompt engineer our examples being fed to the models. Similar to training1.jsonl, we used chat completions to create 10 more training examples. To see how they were formatted, go to the section titled "training1.jsonl."
 
 ### Key Findings
 gpt-3.5-turbo-0125 (10 epochs): We utilized the default training hyperparameter values: 10 epochs, 1 batch size, and an LR multiplier of 2. The purpose of doing this was to see how increasing the epochs affected the training loss. The training loss was 0.0163, which was significantly lower than the model with default parameters, but it had a slightly higher cost than gpt-3.5-turbo-0125 with the default parameters.
@@ -114,6 +114,8 @@ gpt-3.5-turbo-0125 (10 epochs): We utilized the default training hyperparameter 
 **gpt-3.5-turbo-0125 (10 epochs) with results:**
 <br>
 <br>
+<img src="images/10_epochs_training_loss" alt="Alt Text" width="500">
+<img src="images//10_epochs_hyperparameters.png" alt="Alt Text" width="1000">
 
 ### Insights
 - The jsonl files did not necessarily have an affect on the training losses. We just wanted to create more refined examples to optimize the prompts with prompt engineering. 
