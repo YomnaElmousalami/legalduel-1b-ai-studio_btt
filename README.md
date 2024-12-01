@@ -114,8 +114,8 @@ gpt-3.5-turbo-0125 (10 epochs): We utilized the default training hyperparameter 
 **gpt-3.5-turbo-0125 (10 epochs) with results:**
 <br>
 <br>
-<img src="images/10_epochs_training_loss" alt="Alt Text" width="500">
-<img src="images/10_epochs_hyperparameters" alt="Alt Text" width="500">
+<img src="images/10_epochs_training_loss.png" alt="Alt Text" width="500">
+<img src="images/10_epochs_hyperparameters.png" alt="Alt Text" width="500">
 
 ### Insights
 - The jsonl files did not necessarily have an affect on the training losses. We just wanted to create more refined examples to optimize the prompts with prompt engineering. 
