@@ -68,7 +68,8 @@ To generate the best chronology with our two selected models, we decided to use 
 
 As seen in the image, the prompt was created using prompt engineering. Meanwhile the chat completions api starts from the line that states "response" and ends with "summary=...." The chat completions api contains a messages section which specifies the role and the content associated with each role. The first role that is specified is "system" which allows you to specify the behavior of the model that you are using. The second role that is specified is the "user" role which acts as a user who is typing an input into the chatbot. In the code above, the content of the role "system" is given the prompt we created with prompt engineering and the content of the role user is give the document text that the user enters when using the web application. Afterwards, the line "summary = response.choices[0].message.content" is the output of the model, otherwise known as the chronology. 
 
-## Model Trianing
+## Model Trianing 
+### traning1.jsonl
 We decided to train our model with the OpenAI Dashboard. We created 10 training examples in training1.jsonl using the OpenAI Chat Completions API endpoint input prompt. The purpose of a chat completeions input prompt is to generate an output of a chronology, in text, based on specific parameters. Here is an example of a chat completions input prompt:
 
 {"messages": 
@@ -88,11 +89,11 @@ We decided to train the models based on the hyperparameters of the number of epo
 # Key Findings and Insights
 
 ### Key Findings
-gpt-3.5-turbo-0125: We utilized the default training hyperparameter values: 3 epochs, 1 batch size, and an LR multiplier of 2. The purpose of doing this was to see how the default values would measure, compared to adjusted hyperparameter values. Although the training cost was low, it did produce a significantly high training loss of 0.8. This suggests that the model is most likely underfitting. 
+gpt-3.5-turbo-0125 (default parameters): We utilized the default training hyperparameter values: 3 epochs, 1 batch size, and an LR multiplier of 2. The purpose of doing this was to see how the default values would measure, compared to adjusted hyperparameter values. Although the training cost was low, it did produce a significantly high training loss of 0.8. This suggests that the model is most likely underfitting. 
 
 gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the best results, we decided to try different hyperparameters for this model: 10 epochs, 1 batch size, and an LR multiplier of 2. As a result, the training loss was significantly lower: 0.0027. Although a low training loss is usually good, this training loss is significantly low. This suggests that the model is most likely severly overfitting. 
 
-**gpt-3.5-turbo-0125 training hyperparameters and results:**
+**gpt-3.5-turbo-0125 default training hyperparameters with results:**
 <br>
 <br>
 <img src="images/gpt-3.5 hyperparameters.png" alt="Alt Text" width="500">
@@ -104,9 +105,20 @@ gpt-4o-2024-08-06: Because the default hyperparameter values did not produce the
 <img src="images/gpt 4 hyperparameters.png" alt="Alt Text" width="500">
 <img src="images/gpt 4 training loss.png" alt="Alt Text" width="1000">
 
+### training_formatted.jsonl
+After seeing the results from training1.jsonl, we decided to try more refined, longer, but same syntaxed examples to see if the results were better. Similar to training1.jsonl, we used chat completions to create 10 more training examples. To see how they were formatted, go to the section titled "training1.jsonl."
+
+### Key Findings
+gpt-3.5-turbo-0125 (10 epochs): We utilized the default training hyperparameter values: 10 epochs, 1 batch size, and an LR multiplier of 2. The purpose of doing this was to see how increasing the epochs affected the training loss. The training loss was 0.0163, which was significantly lower than the model with default parameters, but it had a slightly higher cost than gpt-3.5-turbo-0125 with the default parameters.
+
+**gpt-3.5-turbo-0125 (10 epochs) with results:**
+<br>
+<br>
+
 ### Insights
 - gpt-4o-2024-08-06 is better at reducing training loss but has a high cost
-- An epoch number that is too high can cause the model to overfit, as seen with gpt-3.5
+- However, gpt-3.5-turbo-0125 (10 epochs) also had a low training loss but a lower cost. Therefore, it was the best model we tested. 
+- Although gpt-3.5-turbo-0125 (10 epochs) performed the best, the high epoch numbers of gpt-4o-2024-08-06 and gpt-3.5-turbo-0125 (10 epochs), may have caused the models to overfit, as seen by the training losses.
 - Communication is the best when working with teams, especially when scheduling meetings or if it is your first time working with AI models.
 
 # Potential Next Steps
