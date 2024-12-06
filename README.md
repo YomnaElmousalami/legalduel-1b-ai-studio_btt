@@ -217,7 +217,7 @@ Part of the visual timeline because it is too big to fit here:
 
 # Documentation
 
-Here is some documentation regarding Open AI's chat completeions API, which is what we have used in this project [Break Through Tech AI](https://www.breakthroughtech.org/). If you would like to access a pdf version of the document, please cd into the directory.
+Here is some documentation regarding Open AI's chat.completions.create API, which is what we have used in this project for text generation. [Text Generation Open AI](https://platform.openai.com/docs/guides/text-generation). If you would like to access a pdf version of the document, please cd into the "documentation" directory.
 
 # Contributing
 
