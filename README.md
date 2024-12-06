@@ -221,6 +221,8 @@ Here is some documentation regarding Open AI's chat.completions.create API, whic
 
 # Contributing
 
+Hello, thank you so much for coming across our page. If you would like to contribute to this project, you can follow the instructions provided by this link [Contribution](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
+
 # License
 This license is under the Apache License 2.0: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
