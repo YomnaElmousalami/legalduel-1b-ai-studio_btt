@@ -1,5 +1,7 @@
 # Chronology Creation, LegalDuel
 ## Fall 2024, AI Studio Project, legalduel-1b-ai-studio
+## Authors: Tiffany Fu, Yomna Elmousalami, and Zoe Bailey
+
 <ins> Table of Contents </ins>
 - [Business Focus](#business-focus)
 - [Data Preparation and Validation](#data-preparation-and-validation)
@@ -212,6 +214,10 @@ Part of the visual timeline because it is too big to fit here:
 ### Step 12
 <br>
 <img src="images/type CTRL + C.png" width="500">
+
+# Documentation
+
+Here is some documentation regarding Open AI's chat completeions API, which is what we have used in this project [Break Through Tech AI](https://www.breakthroughtech.org/). If you would like to access a pdf version of the document, please cd into the directory.
 
 # Contributing
 
