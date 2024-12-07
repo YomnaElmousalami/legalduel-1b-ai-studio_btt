@@ -151,7 +151,7 @@ Some potential next steps we are considering are continintg to finetune both of 
 
 # Usage
 
-**Note:If you would like to use the sample datasets to try out, please feel free to do so.**
+**Note:If you would like to use the sample datasets to try out, please feel free to do so. Just cd into sample datasets.**
 
 1. Type cd ai-web-app into the command line.
 2. Type "python app.py" or "python3 app.py"
