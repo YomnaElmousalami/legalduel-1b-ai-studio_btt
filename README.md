@@ -133,6 +133,7 @@ gpt-3.5-turbo-0125 (5 epochs): We utilized the default training hyperparameter v
 - However, gpt-3.5-turbo-0125 (default parameters) had a high training loss, indicting that the model may be underfitting. 
 - However, gpt-3.5-turbo-0125 (5 epochs) also had a low training loss but a lower cost. Therefore, it was the best model we tested. 
 - Although gpt-3.5-turbo-0125 (5 epochs) performed the best, the high epoch numbers of gpt-4o-2024-08-06 and gpt-3.5-turbo-0125 (10 epochs), may have caused the models to overfit, as seen by the training losses.
+- When submitting our bot to the LegalDuel platform to test, it placed 11th out of 13 bots.
 - Communication is the best when working with teams, especially when scheduling meetings or if it is your first time working with AI models.
 
 # Potential Next Steps
