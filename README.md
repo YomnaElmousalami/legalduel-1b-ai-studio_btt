@@ -150,6 +150,9 @@ Some potential next steps we are considering are continintg to finetune both of 
 6. To stop the program type "CTRL + C"
 
 # Usage
+
+**Note:If you would like to use the sample datasets to try out, please feel free to do so.**
+
 1. Type cd ai-web-app into the command line.
 2. Type "python app.py" or "python3 app.py"
 3. Click "Open in Browser"
