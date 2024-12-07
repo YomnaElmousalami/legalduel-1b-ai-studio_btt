@@ -2,6 +2,8 @@
 ## Fall 2024, AI Studio Project, legalduel-1b-ai-studio
 ## Authors: Tiffany Fu, Yomna Elmousalami, and Zoe Bailey
 
+**Test comment on readme**
+
 <ins> Table of Contents </ins>
 - [Business Focus](#business-focus)
 - [Data Preparation and Validation](#data-preparation-and-validation)
