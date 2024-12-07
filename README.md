@@ -1,6 +1,6 @@
 # Chronology Creation, LegalDuel
 ## Fall 2024, AI Studio Project, legalduel-1b-ai-studio
-## Authors: Tiffany Fu, Yomna Elmousalami, and Zoe Bailey
+## Authors: Tiffany Fu, Yomna Elmousalam, and Zoe Bailey
 
 <ins> Table of Contents </ins>
 - [Business Focus](#business-focus)
