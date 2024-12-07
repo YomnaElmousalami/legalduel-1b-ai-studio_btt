@@ -1,8 +1,6 @@
 # Chronology Creation, LegalDuel
 ## Fall 2024, AI Studio Project, legalduel-1b-ai-studio
-## Authors: Tiffany Fu, Yomna Elmousalami, and Zoe Bailey
-
-**Test comment on readme**
+## Authors: Tiffany Fu, Yomna Elmousalami, and Zoe Bailey!
 
 <ins> Table of Contents </ins>
 - [Business Focus](#business-focus)
@@ -135,6 +133,7 @@ gpt-3.5-turbo-0125 (5 epochs): We utilized the default training hyperparameter v
 - However, gpt-3.5-turbo-0125 (default parameters) had a high training loss, indicting that the model may be underfitting. 
 - However, gpt-3.5-turbo-0125 (5 epochs) also had a low training loss but a lower cost. Therefore, it was the best model we tested. 
 - Although gpt-3.5-turbo-0125 (5 epochs) performed the best, the high epoch numbers of gpt-4o-2024-08-06 and gpt-3.5-turbo-0125 (10 epochs), may have caused the models to overfit, as seen by the training losses.
+- When submitting our bot to the LegalDuel platform to test, it placed 11th out of 13 bots.
 - Communication is the best when working with teams, especially when scheduling meetings or if it is your first time working with AI models.
 
 # Potential Next Steps
@@ -152,6 +151,9 @@ Some potential next steps we are considering are continintg to finetune both of 
 6. To stop the program type "CTRL + C"
 
 # Usage
+
+**Note:If you would like to use the sample datasets to try out, please feel free to do so. Just cd into sample datasets.**
+
 1. Type cd ai-web-app into the command line.
 2. Type "python app.py" or "python3 app.py"
 3. Click "Open in Browser"
@@ -224,6 +226,8 @@ Here is some documentation regarding Open AI's chat.completions.create API, whic
 # Contributing
 
 Hello, thank you so much for coming across our page. If you would like to contribute to this project, you can follow the instructions provided by this link: [Contribution](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
+
+If you want to contribute to the project, contact the repo owner: username: tiffanyfu7
 
 # License
 This license is under the Apache License 2.0: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
