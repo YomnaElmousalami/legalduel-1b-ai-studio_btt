@@ -230,7 +230,7 @@ Hello, thank you so much for coming across our page. If you would like to contri
 If you want to contribute to the project, contact the repo owner: username: tiffanyfu7
 
 # License
-This license is under the Apache License 2.0: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+If you would like to modify the code please follow the Apache License 2.0: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 # Credits and Acknowledgements
 On behalf of our team, we would like to thank our challenge advisors (Thor Alden, Anthony Puppo, and Kate McGuigan) at LegalDuel for their continued support and collaboration throughout this project. We had so much fun working with AI in the legal sector and cannot wait to explore it more in the future. We would also like to thank our TA (Nandini Proothi) for collaborating with us and giving us advice on how to approach our problem if we ever needed help. Last, but certainly not least, we would like to thank the [Break Through Tech AI](https://www.breakthroughtech.org/) team at Cornell Tech for providing us with this experiential learning oppourtunities as well as the course support needed for students to succceed. We are all excited for what is in store for the future in Spring AI Studio.
