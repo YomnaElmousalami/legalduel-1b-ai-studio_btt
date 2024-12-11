@@ -100,6 +100,7 @@ function toggleContent() {
     document.getElementById("timelineContent").style.display = showImage ? "block" : "none";
 }
 
+// download pdf version of the visual timeline
 const button = document.getElementById('download-button');
 
 function generatePDF() {
@@ -111,3 +112,16 @@ function generatePDF() {
 }
 
 button.addEventListener('click', generatePDF);
+
+// download the pdf version of the generated textual chronology
+const button_2 = document.getElementById('download');
+
+function generateTextPDF(){
+    const element = document.getElementById('textContent');
+    const pdf_styling = {
+      filename: 'text_chronology.pdf',
+  };
+     html2pdf().set(pdf_styling).from(element).save(); 
+}
+
+button_2.addEventListener('click', generateTextPDF);
