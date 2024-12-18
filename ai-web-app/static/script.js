@@ -1,6 +1,8 @@
+//when the submit button is clicked
 document.getElementById("inputForm").addEventListener("submit", async function (event) {
     event.preventDefault();
 
+    //Await for content to be summarized
     const inputText = document.getElementById("inputText").value;
     const response = await fetch("/summarize", {
         method: "POST",
@@ -16,8 +18,9 @@ document.getElementById("inputForm").addEventListener("submit", async function (
 
     let container_left_Tracker = true;
 
+   //if the response is successful
     if (response.ok) {
-	//partly (OpenAI, 2024) To learn how to split events and dates.
+	//if statement is partly assisted with (OpenAI, 2024) To learn how to split events and dates.
         const events = result.summary.split("\n"); 
         outputElement.textContent = '';  
         timeline.textContent = '';
@@ -54,7 +57,8 @@ document.getElementById("inputForm").addEventListener("submit", async function (
 
         });
         timelineTracker++;
-    } 
+    }
+    //otherwise, there is an error
     else {
         outputElement.textContent = result.error || "Something went wrong!";
     }
