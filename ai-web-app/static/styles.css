@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
 }
-
+/*body tag*/
 body {
     background-color: #474e5d;
     font-family: Tahoma, sans-serif;
@@ -53,7 +53,8 @@ body {
     margin: 20px
 }
 
-/*For the visual timeline of the chronologies, below is assisted with https://www.w3schools.com/howto/howto_css_timeline.asp*/
+/*For the visual timeline of the legal chronologies that are generated*/ 
+/*below is assisted with w3schools as seen in references*/
 .timeline {
     position: relative;
     max-width: 1000px;
