@@ -125,7 +125,7 @@ body {
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: white transparent transparent;
 }
 
 .right::after {
