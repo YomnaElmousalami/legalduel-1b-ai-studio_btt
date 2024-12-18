@@ -238,4 +238,4 @@ On behalf of our team, we would like to thank our challenge advisors (Thor Alden
 
 # References
 
-- To gain help in formatting the timeline: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline 
+- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline 
