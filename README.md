@@ -237,4 +237,4 @@ If you would like to modify the code please follow the Apache License 2.0: [Apac
 On behalf of our team, we would like to thank our challenge advisors (Thor Alden, Anthony Puppo, and Kate McGuigan) at LegalDuel for their continued support and collaboration throughout this project. We had so much fun working with AI in the legal sector and cannot wait to explore it more in the future. We would also like to thank our TA (Nandini Proothi) for collaborating with us and giving us advice on how to approach our problem if we ever needed help. Last, but certainly not least, we would like to thank the [Break Through Tech AI](https://www.breakthroughtech.org/) team at Cornell Tech for providing us with this experiential learning oppourtunities as well as the course support needed for students to succceed. We are all excited for what is in store for the future in Spring AI Studio.
 
 # Sources
-- https://www.w3schools.com/howto/howto_css_timeline.asp
+- Timeline UI Assistance: https://www.w3schools.com/howto/howto_css_timeline.asp
