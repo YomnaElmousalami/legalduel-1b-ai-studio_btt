@@ -238,5 +238,5 @@ On behalf of our team, we would like to thank our challenge advisors (Thor Alden
 
 # References 
 
-- Mainly for Exploratory Data Analysis (as seen in the section): OpenAI. (2024). ChatGPT (October 2024 version) [Large language model]. https://chat.openai.com/chat
+- Mainly for Exploratory Data Analysis (as seen in the table of contents): OpenAI. (2024). ChatGPT (October 2024 version) [Large language model]. https://chat.openai.com/chat
 - Timeline Assistance: w3schools. (n.d.). How TO - Timeline. How To Create a Timeline. https://www.w3schools.com/howto/howto_css_timeline.asp 
