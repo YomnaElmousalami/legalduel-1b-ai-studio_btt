@@ -52,6 +52,8 @@ body {
     margin: 20px
 }
 
+// Bellow is assisted with https://www.w3schools.com/howto/howto_css_timeline.asp
+
 .timeline {
     position: relative;
     max-width: 1000px;
