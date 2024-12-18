@@ -228,7 +228,7 @@ Here is some documentation regarding Open AI's chat.completions.create API, whic
 
 Hello, thank you so much for coming across our page. If you would like to contribute to this project, you can follow the instructions provided by this link: [Contribution](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
 
-If you want to contribute to the project, contact the repo owner: username: tiffanyfu7
+Before contributing, contact the repo owner: username: tiffanyfu7
 
 # License
 If you would like to modify the code please follow the Apache License 2.0: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
@@ -238,6 +238,6 @@ On behalf of our team, we would like to thank our challenge advisors (Thor Alden
 
 # References
 
-- https://platform.openai.com/docs/guides/text-generation
-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline
-- https://chat.openai.com/chat 
+- Text generation. (n.d.). Text Generation - OpenAI API. Retrieved December 6, 2024, from https://platform.openai.com/docs/guides/text-generation
+- w3schools. (n.d.). How TO - Timeline. How To Create a Timeline. https://www.w3schools.com/howto/howto_css_timeline.asp 
+- OpenAI. (2024). ChatGPT (October 2024 version) [Large language model]. https://chat.openai.com/chat
