@@ -8,6 +8,7 @@ body {
     font-family: Tahoma, sans-serif;
 }
 
+/*main container identifier*/
 #mainContainer {
     display: flex;
     color: white;
@@ -54,7 +55,7 @@ body {
 }
 
 /*For the visual timeline of the legal chronologies that are generated*/ 
-/*below is assisted with w3schools as seen in references*/
+/*below is partial assistance of w3schools https://www.w3schools.com/howto/howto_css_timeline.asp*/
 .timeline {
     position: relative;
     max-width: 1000px;
