@@ -52,7 +52,6 @@ body {
     margin: 20px
 }
 
-/* The actual timeline */
 .timeline {
     position: relative;
     max-width: 1000px;
@@ -60,7 +59,6 @@ body {
     color: red;
 }
 
-/* The vertical ruler of the timeline */
 .timeline::before {
     content: '';
     position: absolute;
@@ -72,7 +70,6 @@ body {
     margin-left: -3px;
 }
 
-/* Container around content */
 .container {
     padding: 10px 40px;
     position: relative;
@@ -80,7 +77,6 @@ body {
     width: 50%;
 }
 
-/* The circles on the timeline */
 .container::after {
     content: '';
     position: absolute;
@@ -94,17 +90,14 @@ body {
     z-index: 1;
 }
 
-/* Place the container to the left */
 .left {
     left: 0;
 }
 
-/* Place the container to the right */
 .right {
     left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
 .left::before {
     content: " ";
     height: 0;
@@ -118,7 +111,6 @@ body {
     border-color: transparent transparent transparent white;
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
     content: " ";
     height: 0;
@@ -132,12 +124,10 @@ body {
     border-color: transparent white transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
     left: -16px;
 }
 
-/* The actual content */
 .content {
     padding: 20px 30px;
     background-color: white;
@@ -147,3 +137,4 @@ body {
     border: 3px solid red;
 }
 
+// Above is modified from https://www.w3schools.com/howto/howto_css_timeline.asp
