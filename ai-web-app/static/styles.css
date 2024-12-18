@@ -1,4 +1,4 @@
-//For the web application styling
+/*For the web application styling*/
 * {
     box-sizing: border-box;
 }
@@ -53,7 +53,7 @@ body {
     margin: 20px
 }
 
-//For the visual timeline of the chronologies, Below is assisted with https://www.w3schools.com/howto/howto_css_timeline.asp
+/*For the visual timeline of the chronologies, below is assisted with https://www.w3schools.com/howto/howto_css_timeline.asp*/
 .timeline {
     position: relative;
     max-width: 1000px;
