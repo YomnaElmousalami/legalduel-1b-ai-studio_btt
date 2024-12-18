@@ -236,9 +236,7 @@ If you would like to modify the code please follow the Apache License 2.0: [Apac
 # Credits and Acknowledgements
 On behalf of our team, we would like to thank our challenge advisors (Thor Alden, Anthony Puppo, and Kate McGuigan) at LegalDuel for their continued support and collaboration throughout this project. We had so much fun working with AI in the legal sector and cannot wait to explore it more in the future. We would also like to thank our TA (Nandini Proothi) for collaborating with us and giving us advice on how to approach our problem if we ever needed help. Last, but certainly not least, we would like to thank the [Break Through Tech AI](https://www.breakthroughtech.org/) team at Cornell Tech for providing us with this experiential learning oppourtunities as well as the course support needed for students to succceed. We are all excited for what is in store for the future in Spring AI Studio.
 
-# References and Libraries used
+# References 
 
-- OpenAI. (2024). ChatGPT (October 2024 version) [Large language model]. https://chat.openai.com/chat
-- SPACY · Industrial-strength Natural language processing in Python. (n.d.). https://spacy.io/
-- Text generation. (n.d.). Text Generation - OpenAI API. Retrieved December 6, 2024, from https://platform.openai.com/docs/guides/text-generation
-- w3schools. (n.d.). How TO - Timeline. How To Create a Timeline. https://www.w3schools.com/howto/howto_css_timeline.asp 
+- Mainly for Exploratory Data Analysis (as seen in the section): OpenAI. (2024). ChatGPT (October 2024 version) [Large language model]. https://chat.openai.com/chat
+- Timeline Assistance: w3schools. (n.d.). How TO - Timeline. How To Create a Timeline. https://www.w3schools.com/howto/howto_css_timeline.asp 
