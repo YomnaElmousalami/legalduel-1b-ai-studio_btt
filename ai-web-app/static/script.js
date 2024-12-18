@@ -17,6 +17,7 @@ document.getElementById("inputForm").addEventListener("submit", async function (
     let container_left_Tracker = true;
 
     if (response.ok) {
+	//(OpenAI, 2024) To learn howt to split events and dates.
         const events = result.summary.split("\n"); 
         outputElement.textContent = '';  
         timeline.textContent = '';
