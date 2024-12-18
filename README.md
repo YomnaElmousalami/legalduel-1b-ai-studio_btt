@@ -14,7 +14,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits and Acknowledgements](#credits-and-acknowledgements)
-- [References](#references)
+- [References and Examples Used](#references)
 
 # Business Focus
 The goal of the project was to develop AI-driven solutions for common legal tasks, including content generation. For this project, we developed an AI driven web application to create legal chronologies from a set of given text documents provided by the LegalDuel platform. Chronologies are documents that outline a timeline of events, regarding a legal case. They are typically compiled by an attorney sifting through vast amounts of interviews, emails, and other documents to build a timeline. The purpose of creating this AI web application was to make it eaiser for lawyers to spend less time tediously creating chronologies, so instead they can focus on other pressing issues. Additionally, this project is useful for customers at law firms because with more time, competition, and innovation from our AI tool, law firms can help clients more efficiently for less money. Lastly, our project will our allow for more competition and innovatative solutions since new and unique solutions arise from increased competition, since AI tools are being constantly added into the legal sector. 
@@ -236,7 +236,8 @@ If you would like to modify the code please follow the Apache License 2.0: [Apac
 # Credits and Acknowledgements
 On behalf of our team, we would like to thank our challenge advisors (Thor Alden, Anthony Puppo, and Kate McGuigan) at LegalDuel for their continued support and collaboration throughout this project. We had so much fun working with AI in the legal sector and cannot wait to explore it more in the future. We would also like to thank our TA (Nandini Proothi) for collaborating with us and giving us advice on how to approach our problem if we ever needed help. Last, but certainly not least, we would like to thank the [Break Through Tech AI](https://www.breakthroughtech.org/) team at Cornell Tech for providing us with this experiential learning oppourtunities as well as the course support needed for students to succceed. We are all excited for what is in store for the future in Spring AI Studio.
 
-# References
+# References and Examples Used
 
 - https://platform.openai.com/docs/guides/text-generation
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline
+- https://chat.openai.com/chat 
