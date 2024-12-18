@@ -238,4 +238,6 @@ On behalf of our team, we would like to thank our challenge advisors (Thor Alden
 
 # References
 
-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline 
+- Documentation: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline 
+- Visual CSS Timeline assistance: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline
+- https://chat.openai.com/chat 
