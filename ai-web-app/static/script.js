@@ -21,7 +21,7 @@ document.getElementById("inputForm").addEventListener("submit", async function (
    //if the response is successful
     if (response.ok) {
 	//if statement is partly assisted with OpenAI's chatgpt (Oct 2024).
-	///It was used to learn about how to split events and dates.
+	///It was used to learn about how to split events and dates (https://chatgpt.com/).
         const events = result.summary.split("\n"); 
         outputElement.textContent = '';  
         timeline.textContent = '';
