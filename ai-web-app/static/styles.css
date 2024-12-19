@@ -1,4 +1,5 @@
 /*For the web application styling*/
+/*adjust box-sizing of the website*/
 * {
     box-sizing: border-box;
 }
@@ -14,15 +15,18 @@ body {
     color: white;
 }
 
+/*for pdf upload identifer*/
 #pdfUpload {
     margin-bottom: 5px;
 }
 
+/*for the text box styling*/
 #inputText {
     padding: 20px;
     font-size: 18px;
 }
 
+/*for the output chronologies*/
 #textContent {
     background-color: white;
     color: black;
@@ -30,10 +34,12 @@ body {
     border-radius: 2px;
 }
 
+/*styling for when checklists are clicked on*/
 #optionChecks {
     margin-bottom: 20px;
 }
 
+/*scrolling options*/
 .leftContainer {
     height: 97vh;
     width: 55vw;
@@ -42,6 +48,7 @@ body {
     overflow-y: scroll;
 }
 
+/*scrolling options*/
 .rightContainer {
     height: 97vh;
     width: 45vw;
@@ -50,6 +57,7 @@ body {
     overflow-y: scroll;
 }
 
+/*for output*/
 .outputContainer {
     margin: 20px
 }
