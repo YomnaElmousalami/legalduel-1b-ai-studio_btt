@@ -53,7 +53,6 @@ document.getElementById("inputForm").addEventListener("submit", async function (
                 timeline.appendChild(timeline_content); 
             }
 
-
         });
         timelineTracker++;
     }
