@@ -2,7 +2,7 @@
 document.getElementById("inputForm").addEventListener("submit", async function (event) {
     event.preventDefault();
 
-    //Await for content to be summarized
+    //Await for content to be summarized by flask
     const inputText = document.getElementById("inputText").value;
     const response = await fetch("/summarize", {
         method: "POST",
@@ -54,7 +54,6 @@ document.getElementById("inputForm").addEventListener("submit", async function (
             }
 
         });
-        timelineTracker++;
     }
     //otherwise, there is an error
     else {
