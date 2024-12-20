@@ -71,6 +71,7 @@ body {
     color: red;
 }
 
+/*for the left arrows*/
 .timeline::before {
     content: '';
     position: absolute;
@@ -82,6 +83,8 @@ body {
     margin-left: -3px;
 }
 
+/*white box surrounding the timeline*/
+/*text*/
 .container {
     padding: 10px 40px;
     position: relative;
@@ -140,6 +143,8 @@ body {
     left: -16px;
 }
 
+/*Where content box and border colors*/
+/*were adjusted*/
 .content {
     padding: 20px 30px;
     background-color: white;
