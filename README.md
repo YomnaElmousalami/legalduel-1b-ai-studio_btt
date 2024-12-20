@@ -44,9 +44,8 @@ The first step in this process was converting the documents from .docx to plain 
 <br>
 <img src="images/Spacy Date Extraction.png" alt="Alt Text" width="500">
 
-### Example of Spacy and ChatGPT code snippet and response in text:
+### Example of Spacy and ChatGPT response:
 <br>
-<img src="images/prompt engineering and chat completions.png" alt="Alt Text" width="1000">
 <img src="images/Chronology text.png" alt="Alt Text" width="500">
 
 # Approach
