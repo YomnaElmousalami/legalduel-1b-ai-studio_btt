@@ -125,11 +125,10 @@ gpt-3.5-turbo-0125 (5 epochs): We utilized the default training hyperparameter v
 ### Insights
 - The jsonl files did not necessarily have an affect on the training losses. We just wanted to create more refined examples to optimize the prompts with prompt engineering. 
 - gpt-4o-2024-08-06 is better at reducing training loss but has a high cost.
-- However, gpt-3.5-turbo-0125 (default parameters) had a high training loss, indicting that the model may be underfitting. 
-- However, gpt-3.5-turbo-0125 (5 epochs) also had a low training loss but a lower cost. Therefore, it was the best model we tested. 
+- gpt-3.5-turbo-0125 (default parameters) had a high training loss, indicting that the model may be underfitting. 
+- gpt-3.5-turbo-0125 (5 epochs) also had a low training loss but a lower cost. Therefore, it was the best model we tested. 
 - Although gpt-3.5-turbo-0125 (5 epochs) performed the best, the high epoch numbers of gpt-4o-2024-08-06 and gpt-3.5-turbo-0125 (10 epochs), may have caused the models to overfit, as seen by the training losses.
-- When submitting our bot to the LegalDuel platform to test, it placed 11th out of 13 bots.
-- Communication is the best when working with teams, especially when scheduling meetings or if it is your first time working with AI models.
+- When submitting our generated chronologies to the LegalDuel platform to test, it placed 11th out of 13.
 
 # Potential Next Steps
 Some potential next steps we are considering are continintg to finetune both of the models (gpt-3.5-turbo-0125 and gpt-4o-2024-08-06) until we find the ideal hyperparameters that produce the best results, with the lowest training cost. However, we did not train every model, so it would be interesting to continue comparing and contrasting the results. Once we find the best model, we can then see how the models perform with a validation set. Once we find the model that perfoms the best on both the training and validation sets, we are considering trying out different LLMs to see which ones produce the best results. 
