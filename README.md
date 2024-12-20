@@ -34,7 +34,7 @@ We read the sample documents provided to us, made the chronologies by hand, and 
 <img src="images/chatgpt_chronology.png" alt="Alt Text" width="1000">
 
 ## Data Cleaning and Preprocessing
-The first step in this process was converting the documents from .docx to plain text format. Afterwards, we experimented with date and event extraction using libraries such as SpaCy, Stanford Core NLP, and Duckling on Google Colab. However, after going through this process we realized that integrating a ChatGPT model with Spacy would be eaiser since SpaCy already has cleaning and natural language preprocessing built in, and ChatGPT models allows for a chat completetions response generation. 
+The first step in this process was converting the documents from .docx to plain text format. Afterwards, we experimented with date and event extraction using libraries such as SpaCy, Stanford Core NLP, and Duckling on Google Colab. However, after going through this process we realized that integrating a ChatGPT model with Spacy would be eaiser since SpaCy already has cleaning and natural language preprocessing built in, and ChatGPT models allows for a chat completetions response generation (see full code when you cd into "ai-web-app/summarization_model.py"). 
 
 ### Example of Spacy Entity Identification Code on Google Colab:
 <br>
@@ -44,9 +44,9 @@ The first step in this process was converting the documents from .docx to plain 
 <br>
 <img src="images/Spacy Date Extraction.png" alt="Alt Text" width="500">
 
-### Example of Spacy and ChatGPT code and response in text:
+### Example of Spacy and ChatGPT code snippet and response in text:
 <br>
-<img src="images/Spacy and Chatgpt.png" alt="Alt Text" width="1400">
+<img src="images/prompt engineering and chat completions.png" alt="Alt Text" width="1000">
 <img src="images/Chronology text.png" alt="Alt Text" width="500">
 
 # Approach
