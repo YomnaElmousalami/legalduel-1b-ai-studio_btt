@@ -149,14 +149,14 @@ Some potential next steps we are considering are continintg to finetune both of 
 **Note:If you would like to use the sample datasets to try out, please feel free to do so. Just cd into sample datasets.**
 
 1. Type cd ai-web-app into the command line.
-2. Type "python app.py" or "python3 app.py"
-3. Click "Open in Browser"
+2. Type "python app.py" 
+3. Click "Open in Browser" or click the " http://127.0.0.1:5000" link
 4. Once your click the button, you will find the inital layout of the web application. The left most side contains the area where the user can input text and the right hand side is where the output, or chronology, is generated. In the output section, the "Show Text" box is checked but you can also check and uncheck the "Show Timeline" option.
 5. You can either enter the next manually (it will say "No File Choosen" next to the "Choose File" button).
 6. Or you can upload a pdf version of text (it will say the name of the file next to the "Choose File" button).
 7. If a non-pdf file is uploaded, the web application will display an error message stating that you need to select a .pdf file.
 8. Click the "Generate Chronology Button" 
-9. To see the textual output of the chronology, check the "Show Text" Option 
+9. To see the textual output of the chronology, check the "Show Text" Option. To Download the Text Output, just click the "Download Generated Text Chronology" Button. 
 10. To see the visual timeline of the chronology, check the "Show Timeline" Option
 Note: (You check have both the "Show Text" and "Show Timeline" options checked simultaneously)
 11. Once the "Show Timeline" option has been checked, you can download the visual timeline by clicking the "Donwload Timeline" Button. This will produce a pdf version of the visual timeline.
