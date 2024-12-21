@@ -46,7 +46,7 @@ The first step in this process was converting the documents from .docx to plain 
 
 ### Example of Spacy and ChatGPT response:
 <br>
-<img src="images/Chronology text.png" alt="Alt Text" width="500">
+<img src="images/text_output.png" alt="Alt Text" width="500">
 
 # Approach
 ## Selected Models
