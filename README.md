@@ -193,7 +193,7 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 
 ### Step 8
 <br>
-<img src="images/generate chronology button.png" alt="Alt Text" width="500">
+<img src="images/generate_chronology.png" alt="Alt Text" width="500">
 
 ### Step 9
 <br>
