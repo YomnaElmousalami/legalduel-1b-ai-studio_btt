@@ -176,7 +176,7 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 
 ### Step 4:
 <br>
-<img src="images/screen of web app.png" alt="Alt Text" width="1000">
+<img src="images/initial.png" alt="Alt Text" width="1000">
 
 ### Step 5: 
 <br>
