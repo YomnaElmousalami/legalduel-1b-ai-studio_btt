@@ -3,9 +3,18 @@
 * {
     box-sizing: border-box;
 }
+
+/*header tag color to match with blue web background*/
+h1{
+    color: white;
+}
+
 /*body tag*/
 body {
-    background-color: #474e5d;
+    background-color: #34547c;
+    /*#344761;*/
+    /*#345d77;*/
+    /*color options: #2f495a, #4b6383;*/
     font-family: Tahoma, sans-serif;
 }
 
@@ -71,7 +80,7 @@ body {
     color: red;
 }
 
-/*for the left arrows*/
+/*not the border: line in the center*/
 .timeline::before {
     content: '';
     position: absolute;
@@ -84,7 +93,7 @@ body {
 }
 
 /*white box surrounding the timeline*/
-/*text*/
+/*...information text*/
 .container {
     padding: 10px 40px;
     position: relative;
@@ -99,7 +108,7 @@ body {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 6px solid #00008B;
+    border: 6px solid gray;
     top: 15px;
     border-radius: 100%;
     z-index: 1;
@@ -136,15 +145,14 @@ body {
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: white transparent transparent;
+    border-color: transparent white transparent transparent;
 }
 
 .right::after {
     left: -16px;
 }
 
-/*Where content box and border colors*/
-/*were adjusted*/
+/*Where content box and border colors were adjusted*/
 .content {
     padding: 20px 30px;
     background-color: white;
