@@ -180,12 +180,12 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 
 ### Step 5: 
 <br>
-<img src="images/manually inputting text.png" alt="Alt Text" width="500">
+<img src="images/no_file_chosen.png" alt="Alt Text" width="500">
 
 ### Step 6:
 <br>
-<img src="images/upload pdf pt.1.png" alt="Alt Text" width="500">
-<img src="images/upload pdf pt.2.png" alt="Alt Text" width="500">
+<img src="images/upload_pdf_pt1.png" alt="Alt Text" width="500">
+<img src="images/upload_pdf_pt2.png" alt="Alt Text" width="500">
 
 ### Step 7
 <br>
