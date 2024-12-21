@@ -197,17 +197,13 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 
 ### Step 9
 <br>
-<img src="images/Chronology text.png" alt="Alt Text" width="500">
+<img src="images/text_output.png" alt="Alt Text" width="500">
 
-### Step 10
+### Step 10 abd 11
 <br>
 Part of the visual timeline because it is too big to fit here:
 <br>
 <img src="images/chronology timeline.png" alt="Alt Text" width="500">
-
-### Step 11
-<br>
-<img src="images/download timeline.png" alt="Alt Text" width="500">
 
 ### Step 12
 <br>
