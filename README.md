@@ -189,7 +189,7 @@ Note: (You check have both the "Show Text" and "Show Timeline" options checked s
 
 ### Step 7
 <br>
-<img src="images/error with other file types.png" alt="Alt Text" width="500">
+<img src="images/error_alert.png" alt="Alt Text" width="500">
 
 ### Step 8
 <br>
