@@ -9,7 +9,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_KEY"))
 
 @Language.component("openai_summarizer")
-def summarize_text(doc):
+def summarize_openAI(doc):
     """Custom component that summarizes the text using OpenAI's GPT model."""
     #dates = []
     #for ent in doc.ents:
