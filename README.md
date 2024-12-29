@@ -1,7 +1,3 @@
-[![License: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware_License-CERN--OHL--P--2.0-blue)](https://opensource.org/license/cern-ohl-p/)
-
-[![License: MIT](https://img.shields.io/badge/Software_License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-
 # Chronology Creation, LegalDuel
 ## Fall 2024, AI Studio Project, legalduel-1b-ai-studio
 ## Authors: Tiffany Fu, Yomna Elmousalami, and Zoe Bailey.
