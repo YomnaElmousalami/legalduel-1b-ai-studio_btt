@@ -1,3 +1,4 @@
+![License Status](https://img.shields.io/badge/License-Active-brightgreen)
 MIT License
 
 Copyright (c) 2019 Alejandro RH
