@@ -8,5 +8,3 @@
 
 4. run python app.py and test in http://127.0.0.1:5000
 5. To stop the program type "CTRL + C" in the command line
-
-CSS Timeline Assistance: https://www.w3schools.com/howto/howto_css_timeline.asp
