@@ -1,4 +1,20 @@
-/*Manually, create html and css for a sample chronology, prior to javascript edits*/
+<!--Copyright (c) 2019 [Alejandro RH]
+ Licensed under the MIT License, with modifications. See LICENSE file for details.
+
+Modified by: Yomna Elmousalami, Tiffany Fu, and Zoey Bailey in 2024
+
+Modified version of the code originally from simple-timeline(https://github.com/aleckrh/simple-timeline/tree/master?tab=MIT-1-ov-file)
+
+Original code: https://github.com/aleckrh/simple-timeline/tree/master?tab=MIT-1-ov-file
+
+Changes made: 
+- Made timeline left-oriented where events are listed vertically instead of left and right
+- Added more events to simulate sample chronology dataset we were given
+- changed background of area surrounding timeline to be blue
+- changed to h1 header-->
+
+<!--Manually, create html and css for a sample chronology, prior to javascript edits-->
+<!--This was created in case javascript wasn't working-->
 
 <!DOCTYPE html>
 <html>
@@ -9,104 +25,61 @@
   box-sizing: border-box;
 }
 
-/*body tag*/
 body {
-  background-color: #474e5d;
+  background-color: #34547c;
   font-family: Tahoma, sans-serif;
 }
 
-/* The actual timeline (the vertical ruler of the timeline) */
-/*Referenced for CSS Guidance on how to generated a timeline*/
-/*https://www.w3schools.com/howto/howto_css_timeline.asp*/
 .timeline {
   position: relative;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
-.timeline::before {
+.timeline::after {
   content: '';
   position: absolute;
   width: 5px;
-  background-color: white;
+  background-color: red;
   top: 0;
   bottom: 0;
-  left: 50%;
-  margin-left: -3px;
+  left: 7%;
 }
 
-/* Container around content */
-.container {
+.box {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
-  width: 50%;
+  background-color: #34547c;
+  width: 80%;
 }
 
-/* The circles on the timeline */
-.container::after {
+.box::after {
   content: '';
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
-  top: 15px;
+  top: 65px;
   border-radius: 50%;
   z-index: 1;
 }
 
-/* Place the container to the left */
-.left {
-  left: 0;
-}
-
-/* Place the container to the right */
 .right {
-  left: 50%;
+  left: 7%;
 }
 
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -10px;
 }
 
-/* The actual content */
-.content {
+/*Where content box and border colors were adjusted*/
+.event {
   padding: 20px 30px;
   background-color: white;
+  color: black;
   position: relative;
   border-radius: 6px;
+  border: 3px red;
 }
 
 </style>
@@ -114,93 +87,93 @@ body {
 <body>
 
 <div class="timeline">
-  <div class="container left">
-    <div class="content">
-      <h2>March 16, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>March 16, 2023</h1>
       <p>Dr. Victor Forge of Zenith Manufacturing Co. sends an email to Lyra Transit of Horizon Logistics Ltd. addressing breach of contract and supply chain disruptions.</p>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>March 18, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>March 18, 2023</h1>
       <p>Lyra Transit responds to Forge acknowledging the delays and disruptions due to unforeseen circumstances falling under the force majeure clause.</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>April 1, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>April 1, 2023</h1>
       <p>Dr. Victor Forge notifies Lyra Transit of legal action filed against Horizon Logistics Ltd. for breach of contract and supply chain disruptions.</p>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>April 5, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>April 5, 2023</h1>
       <p>Lyra Transit responds, indicating they are reviewing the details with their legal team.</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>April 10, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>April 10, 2023</h1>
       <p>Forge informs Transit of scheduled deposition and expert testimony regarding the delays.</p>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>April 15, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>April 15, 2023</h1>
       <p>Transit acknowledges the deposition and expert testimony schedule.</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>April 30, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>April 30, 2023</h1>
       <p>Forge sends a final notice settlement proposal to Transit.</p>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>May 4, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>May 4, 2023</h1>
       <p>Transit responds, expressing openness to discussing terms for a resolution.</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>May 6, 2023</h2>
+  <div class= "box right">
+    <div class="event">
+      <h1>May 6, 2023</h1>
       <p>Forge acknowledges Transit's willingness to settle the matter.</p>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>May 10, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>May 10, 2023</h1>
       <p>Transit proposes a meeting to discuss settlement terms.</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>May 11, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>May 11, 2023</h1>
       <p>Forge confirms availability for the meeting.</p>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>May 16, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>May 16, 2023</h1>
       <p>Transit informs Forge that a settlement agreement has been reached.</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>May 17, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>May 17, 2023</h1>
       <p>Forge expresses gratitude for the cooperation and commitment to review the settlement documentation.</p>
     </div>
   </div>
-  <div class="container right">
-    <div class="content">
-      <h2>May 20, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>May 20, 2023</h1>
       <p>Transit confirms receipt of the signed settlement agreement and commitment to implementing improvements.</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>May 21, 2023</h2>
+  <div class="box right">
+    <div class="event">
+      <h1>May 21, 2023</h1>
       <p>Forge thanks Transit for the cooperation and commitment to improved services.</p>
     </div>
   </div>

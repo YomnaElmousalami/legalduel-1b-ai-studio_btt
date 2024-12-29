@@ -16,8 +16,6 @@ document.getElementById("inputForm").addEventListener("submit", async function (
     const outputElement = document.getElementById("modelOutput");
     const timeline = document.querySelector('.timeline');
 
-    let container_left_Tracker = true;
-
    //if the response is successful
     if (response.ok) {
         const events = result.summary.split("\n"); 
@@ -32,20 +30,10 @@ document.getElementById("inputForm").addEventListener("submit", async function (
             const [date, description] = event.split(":"); 
             if (date && description) {
                 const timeline_content = document.createElement("div");
-
-                if(container_left_Tracker)
-                {
-                    timeline_content.className = "container left"; 
-                    container_left_Tracker = false;
-                }
-                else
-                {
-                    timeline_content.className = "container right"; 
-                    container_left_Tracker = true;
-                }
+                timeline_content.className = "box right"; 
 
                 timeline_content.innerHTML = `
-                    <div class="content">
+                    <div class="event">
                         <h2>${date.trim()}</h2> 
                         <p>${description.trim()}</p>
                     </div>

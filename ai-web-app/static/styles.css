@@ -1,3 +1,6 @@
+/*Copyright (c) 2024 Yomna Elmousalami, Tiffany Fu, Zoey Bailey
+Licensed under the Apache 2.0 License. See LICENSE file for details.*/
+
 /*For the web application styling*/
 /*adjust box-sizing of the website*/
 * {
@@ -71,93 +74,74 @@ body {
     margin: 20px
 }
 
+/*MIT License Section (Modified)
+Copyright (c) 2019 Alejandro RH
+Licensed under the MIT License, with modifications. See LICENSE file for details.
+
+Modified by: Yomna Elmousalami, Tiffany Fu, and Zoey Bailey in 2024
+
+Modified version of the code originally from Simple Timeline (https://github.com/aleckrh/simple-timeline)
+
+Original code: https://github.com/aleckrh/simple-timeline
+
+Changes made:
+- Made the timeline left-oriented, where events are listed vertically instead of left and right.
+- Added more events to simulate a sample chronology dataset provided to us.
+- Changed the background color of the area surrounding the timeline to blue.
+
+This section of code is under the MIT License.*/
 /*For the visual timeline of the legal chronologies that are generated for our web application*/ 
-/*below is partial assistance of w3schools https://www.w3schools.com/howto/howto_css_timeline.asp*/
 .timeline {
     position: relative;
-    max-width: 1000px;
     margin: 0 auto;
-    color: red;
 }
 
 /*not the border: line in the center*/
-.timeline::before {
+.timeline::after {
     content: '';
     position: absolute;
     width: 5px;
     background-color: red;
     top: 0;
     bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+    left: 7%;
 }
 
 /*white box surrounding the timeline*/
 /*...information text*/
-.container {
+.box {
     padding: 10px 40px;
     position: relative;
-    background-color: inherit;
-    width: 50%;
+    background-color: #34547c;
+    width: 80%;
 }
 
-.container::after {
+.box::after {
     content: '';
     position: absolute;
     width: 25px;
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 6px solid gray;
-    top: 15px;
-    border-radius: 100%;
+    top: 65px;
+    border-radius: 50%;
     z-index: 1;
-}
-
-.left {
-    left: 0;
 }
 
 .right {
-    left: 50%;
-}
-
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-}
-
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    left: 7%;
 }
 
 .right::after {
-    left: -16px;
+    left: -10px;
 }
 
 /*Where content box and border colors were adjusted*/
-.content {
+.event {
     padding: 20px 30px;
     background-color: white;
     color: black;
     position: relative;
     border-radius: 6px;
-    border: 3px solid red;
+    border: 3px red;
 }
