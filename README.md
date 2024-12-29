@@ -1,4 +1,3 @@
-![License Status](https://img.shields.io/badge/License-Active-brightgreen)
 # Chronology Creation, LegalDuel
 ## Fall 2024, AI Studio Project, legalduel-1b-ai-studio
 ## Authors: Tiffany Fu, Yomna Elmousalami, and Zoe Bailey.
