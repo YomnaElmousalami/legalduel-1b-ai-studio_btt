@@ -222,5 +222,15 @@ Before contributing, contact the repo owner: username: tiffanyfu7
 # License
 If you would like to modify the code please follow the Apache License 2.0: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
+### Third-Party Code
+
+This project also includes code licensed under the **MIT License**. Specifically:
+   - ai-web-app/timeline.html (Mit-Licesensed Component)
+   - ai-web-app/styles.css (Mit-Licesensed Component)
+
+The text of the MIT License and attribution are included in the [LICENSE](./LICENSE) file.
+
+By using this repository, you agree to the terms of the Apache License, Version 2.0, and any additional terms that apply to the MIT-licensed components.
+
 # Credits and Acknowledgements
 On behalf of our team, we would like to thank our challenge advisors (Thor Alden, Anthony Puppo, and Kate McGuigan) at LegalDuel for their continued support and collaboration throughout this project. We had so much fun working with AI in the legal sector and cannot wait to explore it more in the future. We would also like to thank our TA (Nandini Proothi) for collaborating with us and giving us advice on how to approach our problem if we ever needed help. Last, but certainly not least, we would like to thank the [Break Through Tech AI](https://www.breakthroughtech.org/) team at Cornell Tech for providing us with this experiential learning oppourtunities as well as the course support needed for students to succceed. We are all excited for what is in store for the future in Spring AI Studio. 
