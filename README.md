@@ -228,7 +228,7 @@ This project also includes code licensed under the **MIT License**. Specifically
    - ai-web-app/timeline.html (Mit-Licesensed Component)
    - ai-web-app/styles.css (Mit-Licesensed Component)
 
-The text of the MIT License and attribution are included in the [LICENSE](./LICENSE) file.
+The text of the MIT License and attribution are included in the [MIT LICENSE](MIT License.md) file.
 
 By using this repository, you agree to the terms of the Apache License, Version 2.0, and any additional terms that apply to the MIT-licensed components.
 
