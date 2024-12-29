@@ -194,6 +194,9 @@
    This project includes third-party components licensed under the MIT License.
    The following code is subject to the MIT License:
 
+   - ai-web-app/timeline.html (Mit-Licesensed Component)
+   - ai-web-app/styles.css (Mit-Licesensed Component)
+
    MIT License
 
    Copyright (c) 2019 Alejandro RH
