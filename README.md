@@ -224,7 +224,7 @@ If you would like to modify the code please follow the Apache License 2.0: [Apac
 
 ### Third-Party Code
 
-This project also includes code licensed under the **MIT License**. Specifically:
+This project also includes code licensed under the **MIT License**. Specifically, the following files contain some components under the license:
    - ai-web-app/timeline.html (Mit-Licesensed Component)
    - ai-web-app/styles.css (Mit-Licesensed Component)
 
