@@ -1,3 +1,5 @@
+//Created by Yomna Elmousalami, Tiffany Fu, and Zoey Bailey in 2024.*/
+
 //when the submit button is clicked
 document.getElementById("inputForm").addEventListener("submit", async function (event) {
     event.preventDefault();
